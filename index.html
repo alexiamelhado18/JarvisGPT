@@ -17,20 +17,27 @@
 <body>
     <div class="barra-lateral"></div>
     <main>
+        <header>
+            <button onclick="trocarTema()">
+                <i id="light-dark" class="fas fa-sun"></i>
+        </header>
+        </div>
         <div>
             <header>
                 <img src="./img/SENAI-AI 1.png" alt="Imagem de um Robô Jarvis">
                 <h1><span>SENAI-GPT</span></h1>
             </header>
             <form>
-                <input type="text" name="" placeholder="Pergunte algo...">
-                <button><i class="fas fa-microphone"></i></button>
+                <input type="search" name="" placeholder="Pergunte algo...">
+                <button id="microfone">
+                    <i class="fas fa-microphone"></i>
+                </button>
             </form>
 
             <img src="img/logo-senai.png" alt="">
         </div>
     </main>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
