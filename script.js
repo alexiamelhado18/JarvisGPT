@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const OpenAPIKey = process.env.OPENAI.API.KEY;
 const AzureAPIKey = process.env.AZURE.API.KEY;
 
